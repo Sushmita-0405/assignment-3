@@ -14,4 +14,4 @@ def test_calculate_area_square_list():
         calculate_area_square([2])
 
 def test_calculate_area_square_student_id():
-    assert calculate_area_square(9.5393920142) == pytest.approx(95, rel=1e-9)
+    assert calculate_area_square(9.5393920142) == pytest.approx(91, rel=1e-9)
